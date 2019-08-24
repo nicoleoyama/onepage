@@ -1,0 +1,33 @@
+/* demo site 
+background color: #fcfca
+color: #2b2b2b
+
+a:link:
+a:visited:
+a:hover:
+a:active:
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Noto Serif', serif;
+
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans&display=swap');
+
+
+body {
+  background-color: #fcfcfa;
+  color: #2b2b2b;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-size: 1em;
+  line-height: 1.2em;
+
+}
+
+#container { 
+    max-width:45%;
+    max-height:45%;
+}
