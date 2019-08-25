@@ -2,15 +2,26 @@
 background color: #fcfca
 color: #2b2b2b
 
-a:link  - #07ABA0
 
-a:visited - 
+a {
+  outline: none;
+  text-decoration: none;
+}
+a:link {
+  color: #07ABA0;
+}
 
-a:active - #07ABA0
+a:active {
+  color: #FF6C5C;
+}
 
+a:visited {
+  color: #AE7C5B;
+}
 
-a:hover -  #606060
-
+a:hover {
+  color: #27CBC0;
+}
 
   font-family: 'Playfair Display', serif;
 
@@ -56,9 +67,9 @@ a:active {
 }
 
 a:visited {
-  color: #07ABA0;
+  color: #AE7C5B;
 }
 
 a:hover {
-  color: #606060;
+  color: #27CBC0;
 }
