@@ -1,43 +1,40 @@
 /* demo site 
+font: Source Sans Pro
 background color: #fcfca
 color: #2b2b2b
-
+by: nicole oyama
 
 a {
   outline: none;
   text-decoration: none;
+  font-weight: bold;
 }
 a:link {
-  color: #07ABA0;
-}
-
-a:active {
-  color: #FF6C5C;
-}
-
-a:visited {
-  color: #AE7C5B;
-}
-
-a:hover {
   color: #27CBC0;
 }
 
-  font-family: 'Playfair Display', serif;
+a:active {
+  color: #106B60;
+}
 
+a:visited {
+  color: #FF926B;
+}
 
-
+a:hover {
+  color: #606060;
+}
 */
 
-
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
 body {
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: #fcfcfa;
   color: #2b2b2b;
-  font-family: 'Playfair Display', serif;
   font-size: 1em;
   line-height: 1.2em;
+  
 }
 
 /*main body*/
@@ -60,17 +57,17 @@ a {
   font-weight: bold;
 }
 a:link {
-  color: #07ABA0;
+  color: #27CBC0;
 }
 
 a:active {
-  color: #FF6C5C;
+  color: #106B60;
 }
 
 a:visited {
-  color: #AE7C5B;
+  color: #FF926B;
 }
 
 a:hover {
-  color: #27CBC0;
+  color: #606060;
 }
