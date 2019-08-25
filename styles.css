@@ -2,35 +2,61 @@
 background color: #fcfca
 color: #2b2b2b
 
-a:link:
-a:visited:
-a:hover:
-a:active:
+a:link  - 
 
-font-family: 'Open Sans', sans-serif;
-font-family: 'Noto Serif', serif;
+a:visited - 
+
+a:active - 
+
+a:hover - 
+
+  font-family: 'Playfair Display', serif;
+
 
 
 */
 
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
 body {
   background-color: #fcfcfa;
   color: #2b2b2b;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 1em;
   line-height: 1.2em;
 }
 
-.container {
+/*main body*/
+
+#container {
   max-width:100%;
   margin: 0 auto; 
 }
 
+/*images*/
 img {
   max-width: 100%;  
+}
+
+/*links*/
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+a:link {
+  color: ;
+}
+
+a:active {
+  color: ;
+}
+
+a:visited {
+  color: ;
+}
+
+a:hover {
+  color: #2b2b2b;
 }
