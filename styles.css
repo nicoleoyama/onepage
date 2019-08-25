@@ -37,10 +37,15 @@ body {
   
 }
 
+h1 {
+  color:#F3825B;
+  margin: 10px;
+}
+
 /*main body*/
 
 #container {
-  max-width:1000px;
+  max-width: 900px;
   margin: 0 auto; 
 }
 
