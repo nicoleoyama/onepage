@@ -14,7 +14,7 @@ html {
 
 /* lists and nav*/
 ul {
-	display: inline-block;	
+	display: none;
 }
 
 ul li {
