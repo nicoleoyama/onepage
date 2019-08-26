@@ -19,6 +19,9 @@ ul {
 
 ul li {
 	list-style-type: none;	
+	margin: 0;
+	padding: 0;
+	float: left;
 }
 
 /* when you select something and the background color that pops up*/
