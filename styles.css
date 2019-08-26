@@ -12,12 +12,16 @@ html {
 	font-size: 62.5%; /* 10px browser default */
 }
 
-/* lists */
-ul li {
-	display: inline;
-	list-style:none;
+/* lists and nav*/
+ul {
+	display:block;	
 }
 
+ul li {
+	list-style-type: none;	
+}
+
+/* when you select something and the background color that pops up*/
 ::-moz-selection {
 	background: #333;
 	color: #fff;
