@@ -141,7 +141,7 @@ img {
 
 a {
   outline: none;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: bold;
 }
 a:link {
