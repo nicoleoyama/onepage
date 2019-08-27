@@ -32,7 +32,8 @@ body {
 
 /*images*/
 img {
-  max-width: 100%;  
+	height: auto;
+	width: auto\9; /* IE8 */
 }
 
 
